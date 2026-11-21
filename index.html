@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmad Salah Star — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a id="top"></a>
+
+  <!-- Theme toggle (CSS-only, no JavaScript) -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle">
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a class="navbar__brand" href="#top"><span class="brand-mark">&lt;/&gt;</span> Ahmad Salah Star</a>
+    <div class="navbar__right">
+      <nav aria-label="Primary">
+        <ul class="navbar__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="theme-toggle" class="theme-switch">
+        <span class="sr-only">Toggle light and dark mode</span>
+        <span class="theme-switch__sun" aria-hidden="true">☀</span>
+        <span class="theme-switch__moon" aria-hidden="true">☾</span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <span class="hero__badge"><span class="hero__pulse"></span> Open to work</span>
+      <div class="hero__content">
+        <p class="hero__eyebrow">// mid-senior software engineer</p>
+        <h1 class="hero__name">
+          <span class="hero__name-text">Ahmad Salah Star</span>
+        </h1>
+        <p class="hero__role">
+          Full Stack Developer ·
+          <span class="hero__rotate">
+            <span class="hero__rotate-item">React Developer</span>
+            <span class="hero__rotate-item">Nest.js Developer</span>
+            <span class="hero__rotate-item">Next.js Developer</span>
+            <span class="hero__rotate-item">Node.js Developer</span>
+            <span class="hero__rotate-item">TypeScript Engineer</span>
+          </span>
+        </p>
+        <a class="hero__btn" href="#projects">See what I do</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about__inner">
+        <h2 class="section-title"><span class="section-kicker">01.</span> About</h2>
+        <div class="about__body">
+          <img class="about__photo" src="images/avatar.jpg" alt="Portrait of Ahmad Salah Star" width="180" height="180">
+          <p>
+            Hey there! I’m Ahmad, a full stack developer who loves building scalable web and app
+            experiences. From crafting clear frontends to powering solid backends, I bring ideas to
+            life with clean code and thoughtful design.
+          </p>
+          <p>
+            With over five years of experience, I work with React, Next.js, Nest.js, Node.js and
+            Express.js. I study Computer Software Engineering at Salahaddin University–Erbil, ship
+            production systems for local companies, and keep learning through certifications and
+            real client work at <a href="https://www.ahmad-software.com/en">Ahmad Software</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="services__inner">
+        <h2 class="section-title"><span class="section-kicker">02.</span> Services</h2>
+        <p class="section-lead">You dream it, I build it — from my live portfolio.</p>
+        <div class="services__grid">
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">{ }</span>
+            <h3>Full Stack Development</h3>
+            <p>Websites, applications and systems with modern stacks, clean code and solid configuration.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">▣</span>
+            <h3>Customizable Layouts</h3>
+            <p>Flexible UI structure — grids, lists and galleries shaped to fit your product and brand.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">⚡</span>
+            <h3>Interactive Widgets</h3>
+            <p>Polls, quizzes and forms that keep audiences engaged inside your product experience.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">📈</span>
+            <h3>Advanced Analytics</h3>
+            <p>Track engagement, clicks and activity with clear charts and useful reporting.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">🛡</span>
+            <h3>Server Management</h3>
+            <p>Hosting upkeep, migrations and security hardening for production infrastructure.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">⇄</span>
+            <h3>API Integration</h3>
+            <p>Secure, high-performance APIs and third-party integrations done the right way.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">🤖</span>
+            <h3>Telegram Bot Development</h3>
+            <p>Custom bots with automation, commands and business-ready integrations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section class="cv" id="cv">
+      <div class="cv__inner">
+        <h2 class="section-title"><span class="section-kicker">03.</span> CV</h2>
+        <div class="cv__layout">
+          <div class="cv__timeline">
+            <h3 class="cv__heading">Education &amp; experience</h3>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <span class="timeline__year">2022–26</span>
+                <h4>BEng Computer Software Engineering</h4>
+                <p class="timeline__meta">Salahaddin University–Erbil</p>
+                <p>Software engineering degree focused on web systems, databases and shipping real work.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__year">2026–now</span>
+                <h4>Junior Backend Developer</h4>
+                <p class="timeline__meta">Codex Company</p>
+                <p>APIs with Node.js, Nest.js and PostgreSQL, plus security and query performance.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__year">2023–now</span>
+                <h4>Full Stack Developer</h4>
+                <p class="timeline__meta">AP Soft</p>
+                <p>Multi-tenant platforms with Nest.js backends, Next.js UIs and real-time features.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__year">2021–now</span>
+                <h4>Junior Full Stack Developer</h4>
+                <p class="timeline__meta">Bester Group</p>
+                <p>Enterprise web systems: scalable APIs, reusable React components and databases.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__year">2025</span>
+                <h4>Frontend Developer</h4>
+                <p class="timeline__meta">Kitn Company</p>
+                <p>Responsive interfaces with React, Next.js, TypeScript and Tailwind CSS.</p>
+              </li>
+              <li class="timeline__item">
+                <span class="timeline__year">2025</span>
+                <h4>Backend Developer</h4>
+                <p class="timeline__meta">Avana Soft</p>
+                <p>REST APIs, data modeling and reliable integrations for performance-critical apps.</p>
+              </li>
+            </ol>
+          </div>
+          <aside class="cv__aside">
+            <h3 class="cv__heading">Skills</h3>
+            <ul class="tags">
+              <li class="tag tag--react">React</li>
+              <li class="tag tag--next">Next.js</li>
+              <li class="tag tag--ts">TypeScript</li>
+              <li class="tag tag--nest">Nest.js</li>
+              <li class="tag tag--node">Express.js</li>
+              <li class="tag tag--node">Node.js</li>
+              <li class="tag tag--css">Tailwind</li>
+              <li class="tag tag--ui">shadcn/ui</li>
+              <li class="tag tag--sql">MySQL</li>
+              <li class="tag tag--sql">PostgreSQL</li>
+              <li class="tag tag--mongo">MongoDB</li>
+              <li class="tag tag--orm">Prisma</li>
+              <li class="tag tag--state">Zustand</li>
+              <li class="tag tag--query">TanStack Query</li>
+              <li class="tag tag--git">GitHub</li>
+              <li class="tag tag--api">Postman</li>
+            </ul>
+            <h3 class="cv__heading">Languages</h3>
+            <ul class="tags">
+              <li class="tag tag--lang">Kurdish</li>
+              <li class="tag tag--lang">Arabic</li>
+              <li class="tag tag--lang">English</li>
+            </ul>
+            <h3 class="cv__heading">Highlights</h3>
+            <ul class="tags">
+              <li class="tag tag--hi">48+ projects</li>
+              <li class="tag tag--hi">42 certifications</li>
+              <li class="tag tag--hi">Telegram bots</li>
+              <li class="tag tag--hi">POS systems</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certs" id="certifications">
+      <div class="certs__inner">
+        <h2 class="section-title"><span class="section-kicker">04.</span> Certifications</h2>
+        <p class="section-lead">Selected credentials from <a href="https://www.ahmad-software.com/en/certifications">ahmad-software.com</a>.</p>
+        <div class="certs__grid">
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>MERN Stack Web Development</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Full-stack Web Development</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>React &amp; TypeScript</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Next.js From Scratch</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Node.js API Masterclass</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Net Ninja</span>
+            <h3>MongoDB</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Net Ninja</span>
+            <h3>React Router</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Shadcn UI &amp; Next.js Dashboards</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Next.js + NestJS &amp; Prisma Shopping App</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>GitHub Copilot Beginner to Pro</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">LinkedIn Learning</span>
+            <h3>Agile Foundations</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Salahaddin University</span>
+            <h3>Certificate of Appreciation</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Kurdferga</span>
+            <h3>Certificate of Appreciation</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Modern HTML &amp; CSS From The Beginning</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Prompt Engineering Bootcamp</h3>
+          </article>
+          <article class="cert-card">
+            <span class="cert-card__provider">Udemy</span>
+            <h3>Full Stack Telegram Bot (Python + PSQL)</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <div class="projects__inner">
+        <h2 class="section-title"><span class="section-kicker">05.</span> Projects</h2>
+        <p class="section-lead">Selected production work from <a href="https://www.ahmad-software.com/en/projects">ahmad-software.com</a>.</p>
+        <div class="projects__grid">
+          <article class="card">
+            <img src="images/project-1.png" alt="Opuland website preview" width="640" height="400">
+            <div class="card__body">
+              <h3>Opuland</h3>
+              <p>Modern company site with services, portfolio, booking and contact — React, TypeScript, shadcn/ui.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/project-2.png" alt="Bazian Solar website preview" width="640" height="400">
+            <div class="card__body">
+              <h3>Bazian Solar</h3>
+              <p>Solar tech company website and dashboard built with React, Nest.js, MySQL and TypeScript.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/project-3.png" alt="Raha website preview" width="640" height="400">
+            <div class="card__body">
+              <h3>Raha Website</h3>
+              <p>Responsive company site with services, portfolio, booking flow and client-facing contact tools.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/project-4.png" alt="Digital menu platform preview" width="640" height="400">
+            <div class="card__body">
+              <h3>Digital Menu (Ominu)</h3>
+              <p>QR digital menu platform for restaurants and cafes, with a sleek ordering-focused interface.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/project-5.png" alt="Quran App preview" width="640" height="400">
+            <div class="card__body">
+              <h3>Quran App</h3>
+              <p>Verse-by-verse recitations and translations in a clean Next.js interface with Next-Intl.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/project-6.png" alt="Shop ecommerce preview" width="640" height="400">
+            <div class="card__body">
+              <h3>Shop</h3>
+              <p>Full e-commerce stack with listings, cart, auth and checkout using Next.js, Prisma and TypeScript.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <h2 class="section-title"><span class="section-kicker">06.</span> Contact</h2>
+        <div class="contact__grid">
+          <div class="contact__details">
+            <h3>Let’s work together</h3>
+            <p>Have a project, idea, or internship chat? Reach out — I build full stack webs, apps and systems.</p>
+            <ul class="contact__list">
+              <li><span>Website</span> <a href="https://www.ahmad-software.com/en">ahmad-software.com</a></li>
+              <li><span>GitHub</span> <a href="https://github.com/Ahmad-Softwaree">github.com/Ahmad-Softwaree</a></li>
+              <li><span>LinkedIn</span> <a href="https://www.linkedin.com/in/ahmad-salah-50519022a/">Ahmad Salah</a></li>
+              <li><span>Location</span> Kurdistan Region, Iraq</li>
+            </ul>
+          </div>
+          <form class="contact__form" action="#" method="get">
+            <label class="sr-only" for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Name" required>
+
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+
+            <label class="sr-only" for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__col">
+      <strong>Ahmad Software</strong>
+      <p>Full stack developer building scalable web and app experiences.</p>
+    </div>
+    <div class="footer__col">
+      <strong>Explore</strong>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <strong>Connect</strong>
+      <ul>
+        <li><a href="https://www.ahmad-software.com/en">Portfolio site</a></li>
+        <li><a href="https://github.com/Ahmad-Softwaree">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/ahmad-salah-50519022a/">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+</body>
+</html>
