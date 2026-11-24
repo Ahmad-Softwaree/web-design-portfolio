@@ -471,6 +471,7 @@ html:has(#theme-toggle:checked) .theme-switch__moon {
   float: left;
   width: clamp(7rem, 28%, 11rem);
   max-width: 40%;
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center top;
@@ -961,8 +962,8 @@ html:has(#theme-toggle:checked) .tag--lang { color: var(--accent-2); border-colo
 }
 
 .footer__col {
-  flex: 1 1 12rem;
-  min-width: 0;
+  flex: 1;
+  min-width: 12rem;
 }
 
 .footer__col strong {
@@ -1083,9 +1084,5 @@ html:has(#theme-toggle:checked) .tag--lang { color: var(--accent-2); border-colo
 @media (max-width: 24rem) {
   .navbar__links {
     gap: 0.1rem;
-  }
-
-  .projects__grid {
-    grid-template-columns: 1fr;
   }
 }
